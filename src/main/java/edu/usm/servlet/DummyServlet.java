@@ -16,7 +16,6 @@ import java.io.IOException;
 @WebServlet(name = "DummyServlet", urlPatterns = {"/"})
 public class DummyServlet extends HttpServlet {
 
-    @Autowired
     private AwesomeService myserviceOrDao;
 
     @Override
